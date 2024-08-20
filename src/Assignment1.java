@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class Assignment1 {
 
 	public static void main(String[] args) {
@@ -24,6 +26,8 @@ public class Assignment1 {
 				
 				//Count of Checkbox found in the page
 				System.out.println(driver.findElements(By.xpath("//input[@type='checkbox']")).size());
+				System.out.println("Program is done");
+				System.out.println("Thank you");
 			}
 	}
 
