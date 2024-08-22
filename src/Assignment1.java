@@ -27,7 +27,6 @@ public class Assignment1 {
 				//Count of Checkbox found in the page
 				System.out.println(driver.findElements(By.xpath("//input[@type='checkbox']")).size());
 				System.out.println("Program is done");
-				System.out.println("Thank you");
 			}
 	}
 
